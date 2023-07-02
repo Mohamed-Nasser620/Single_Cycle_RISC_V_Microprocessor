@@ -5,8 +5,7 @@
 16: addi x4,x0,1 # always constant and = 1
 20: addi x5,x0,0 # loop counter
 24: addi x6,x0,10 # total number of loops
-28: addi x7,x0,0 # address of the data memory that will receive the latest evaluated result at
-loop:
+28: addi x7,x0,0 # address of the data memory that will receive the latest evaluated result at loop:
 32: beq x3,x4,eq # you can understand the code well from the attached c-code
 36: add x2,x2,x1
 40: sub x3,x3,x4
